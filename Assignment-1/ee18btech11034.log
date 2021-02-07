@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.2.7)  8 FEB 2021 00:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.2.7)  8 FEB 2021 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1290,9 +1290,15 @@ Underfull \hbox (badness 2197) in paragraph at lines 161--165
 \OT1/txr/m/n/12 Converting the dif-fer-ence equa-tion into its z-
  []
 
-File: ./figs/ee18btech11034.eps Graphic file (type eps)
-<./figs/ee18btech11034.eps>
+File: ./figs/ee18btech11034_1.eps Graphic file (type eps)
+<./figs/ee18btech11034_1.eps>
 Overfull \hbox (50.39923pt too wide) in paragraph at lines 195--196
+ [][] 
+ []
+
+File: ./figs/ee18btech11034_2.eps Graphic file (type eps)
+<./figs/ee18btech11034_2.eps>
+Overfull \hbox (50.39923pt too wide) in paragraph at lines 203--204
  [][] 
  []
 
@@ -1300,22 +1306,25 @@ Overfull \hbox (50.39923pt too wide) in paragraph at lines 195--196
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+ [2
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (./ee18btech11034.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 199.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `ee18btech11034.out' has not changed.
 (rerunfilecheck)             Checksum: E8C571213F3AA719E5FC9624872D141D;132.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 30837 strings out of 494924
- 657066 string characters out of 6180769
- 886424 words of memory out of 5000000
- 33597 multiletter control sequences out of 15000+600000
+ 30842 strings out of 494924
+ 657186 string characters out of 6180769
+ 886425 words of memory out of 5000000
+ 33600 multiletter control sequences out of 15000+600000
  54754 words of font info for 123 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  55i,9n,67p,418b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ee18btech11034.dvi (1 page, 15964 bytes).
+Output written on ee18btech11034.dvi (2 pages, 17060 bytes).

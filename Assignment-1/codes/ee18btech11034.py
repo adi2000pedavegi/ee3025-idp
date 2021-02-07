@@ -49,6 +49,7 @@ sf.write('Sound_With_ReducedNoise.wav',output_signal,fs)
 
 #Plotting
 
+plt.figure(1)
 plt.figure(figsize=(8,7))
 plt.subplot(2,1,1)
 plt.plot(y,'g')
@@ -59,8 +60,25 @@ plt.subplot(2,1,2)
 plt.plot(output_signal,'r')
 plt.title('Output with built in command')
 plt.grid()
+
+plt.savefig('../figs/ee18btech11034_1.eps')
+
+plt.figure(2)
+plt.figure(figsize=(8,7))
+plt.subplot(2,1,1)
+plt.plot(np.abs(np.fft.fftshift(np.fft.fft(y))),'g')
+plt.title('Output with own routine')
+plt.grid()
+
+plt.subplot(2,1,2)
+plt.plot(np.abs(np.fft.fftshift(np.fft.fft(output_signal))),'r')
+plt.title('Output with built in command')
+plt.grid()
+
+plt.savefig('../figs/ee18btech11034_2.eps')
+
 #plt.show()
 
-plt.savefig('../figs/ee18btech11034.eps')
 #If using termux
-#subprocess.run(shlex.split("termux-open ../figs/Plot.pdf"))
+#subprocess.run(shlex.split("termux-open ../figs/ee18btech11034_1.pdf"))
+#subprocess.run(shlex.split("termux-open ../figs/ee18btech11034_2.pdf"))
