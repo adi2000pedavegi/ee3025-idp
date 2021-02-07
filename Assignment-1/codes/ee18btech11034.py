@@ -39,11 +39,13 @@ X = np.fft.fft(x)
 Y = np.multiply(H_z,X)
 y = np.fft.ifft(Y).real
 
-#Writing the sound file 
+#Writing the sound file for both the cases
+
 sf.write('7.1_Sound_With_ReducedNoise.wav',y,fs)
 
 #Obtaining y(n) using builtin signal.filifilt
 output_signal = signal.filtfilt(num,den,x)
+sf.write('Sound_With_ReducedNoise.wav',output_signal,fs)
 
 #Plotting
 
